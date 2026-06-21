@@ -1,4 +1,4 @@
-# COMPASS — Community & Property Accountability System for States
+# COMPASS: Community & Property Accountability System for States
 
 **Capstone Project for Master of Science in Cybersecurity & Analytics**
 **St. Thomas University · Summer 2026**
