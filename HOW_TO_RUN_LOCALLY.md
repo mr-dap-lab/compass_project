@@ -1,4 +1,4 @@
-# COMPASS Project: How to Run Locally (Linux, macOS and Windows)
+# COMPASS Project: How to Run Locally (Linux, macOS and/or Windows)
 
 This guide walks you through reproducing every output of the COMPASS capstone, in
 order, on **either macOS or Windows**. Follow the steps top to bottom. Total time:
@@ -13,9 +13,9 @@ get the exact same numbers shown in the progress reports, on both operating syst
 
 ---
 
-## STEP 0 — One-time setup (only do this once)
+## STEP 0: One-time setup (only one time)
 
-### 0.1 Check that you have Python 3.10+
+### 0.1 Check if you have Python 3.10+
 
 **macOS** — open the **Terminal** app (Cmd+Space, type "Terminal", Enter):
 ```bash
@@ -27,14 +27,14 @@ python3 --version
 python --version
 ```
 
-You should see `Python 3.10.x` or higher. If not, install from
-https://www.python.org/downloads/.
+You should see `Python 3.10.x` or higher. If not, must be installed from website.
+
 **Windows users:** on the first screen of the installer, check the box
-**"Add python.exe to PATH"** before clicking Install — this avoids most problems.
+**"Add python.exe to PATH"** before clicking Install, this will avoids most of the problems.
 
 ### 0.2 Unzip the project and navigate into it
 
-Unzip `COMPASS_Project_Phases1-4.zip`. You'll get a `compass_project` folder.
+Unzip `COMPASS_Project.zip`. You'll get a `compass_project` folder.
 
 **macOS:** type `cd ` (with a space), drag the unzipped folder from Finder into
 Terminal, press Enter. Example:
@@ -76,7 +76,7 @@ command every time you open a new terminal to work on this project.**
 > ```powershell
 > Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 > ```
-> (Alternatively use `venv\Scripts\activate.bat` from Command Prompt instead of
+> (Alternatively use `venv\Scripts\activate.bat` from Command Prompt (CMD) instead of
 > PowerShell.)
 
 ### 0.4 (Windows only) Enable UTF-8 output
@@ -107,12 +107,12 @@ Takes a minute or two the first time. You only do this once.
 
 ---
 
-## The pipeline — run these in order
+## The pipeline: run these in order
 
 After Step 0, run the scripts below in sequence. **Use `python3` on macOS and
 `python` on Windows** (shown together as `python3`/`python`).
 
-### STEP 1 — Preview sample (Phase 1 proof-of-concept)
+### STEP 1: Preview sample (Phase 1 proof-of-concept)
 ```bash
 python3 scripts/preview_generator.py        # macOS
 python  scripts/preview_generator.py        # Windows
@@ -120,14 +120,14 @@ python  scripts/preview_generator.py        # Windows
 **Expected:** 6 files written totaling 60 rows; 5 associations listed
 (CA-FL-00000001 funded at 72%, etc.). Output lands in `data/sample/`.
 
-### STEP 2 — ERD diagram (Phase 1)
+### STEP 2: ERD diagram (Phase 1)
 ```bash
 python3 scripts/render_erd.py               # macOS
 python  scripts/render_erd.py               # Windows
 ```
 **Expected:** `ERD saved to: .../docs/cdes_erd.png`.
 
-### STEP 3 — Full synthetic dataset (Phase 2)  ·  2–4 min
+### STEP 3: Full synthetic dataset (Phase 2) 
 ```bash
 python3 scripts/full_generator.py           # macOS
 python  scripts/full_generator.py           # Windows
@@ -135,7 +135,7 @@ python  scripts/full_generator.py           # Windows
 **Expected:** progress log ending in ~484,000 rows across 9 tables.
 Always the same counts: **300 associations, 12,689 units** (seed-locked).
 
-### STEP 4 — Feature engineering (Phase 2)
+### STEP 4: Feature engineering (Phase 2)
 ```bash
 python3 scripts/feature_engineering.py      # macOS
 python  scripts/feature_engineering.py      # Windows
@@ -143,14 +143,14 @@ python  scripts/feature_engineering.py      # Windows
 **Expected (the reproducibility check):** Model 1 prints
 **`57 positive (19.0%)`** and Model 2 prints **`56 positive (18.7%)`**.
 
-### STEP 5 — EDA visualization (Phase 2)
+### STEP 5: EDA visualization (Phase 2)
 ```bash
 python3 scripts/eda_summary.py              # macOS
 python  scripts/eda_summary.py              # Windows
 ```
 **Expected:** `EDA summary saved to .../docs/eda_summary.png` (nine-panel figure).
 
-### STEP 6 — Model 1: delinquency risk (Phase 3)  ·  1–2 min
+### STEP 6> Model 1: delinquency risk (Phase 3)
 ```bash
 python3 scripts/train_model1.py             # macOS
 python  scripts/train_model1.py             # Windows
@@ -159,7 +159,7 @@ python  scripts/train_model1.py             # Windows
 ROC-AUC = 0.928`, oracle ceiling ≈ 0.811, both targets MET, and
 `docs/model1_results.png`.
 
-### STEP 7 — Model 2: reserve failure probability (Phase 3)
+### STEP 7> Model 2: reserve failure probability (Phase 3)
 ```bash
 python3 scripts/train_model2.py             # macOS
 python  scripts/train_model2.py             # Windows
@@ -167,7 +167,7 @@ python  scripts/train_model2.py             # Windows
 **Expected:** champion Random Forest, Brier = 0.0119, ROC-AUC = 0.970, both targets
 MET, and `docs/model2_results.png`.
 
-### STEP 8 — Model 3: financial anomaly detection (Phase 4)
+### STEP 8> Model 3: financial anomaly detection (Phase 4)
 ```bash
 python3 scripts/train_model3.py             # macOS
 python  scripts/train_model3.py             # Windows
@@ -175,7 +175,7 @@ python  scripts/train_model3.py             # Windows
 **Expected:** `Precision@6 = 5/6 = 0.833`, target MET, ROC-AUC = 0.999, and
 `docs/model3_results.png`.
 
-### STEP 9 — Security architecture diagram (Phase 4)
+### STEP 9 : Security architecture diagram (Phase 4)
 ```bash
 python3 scripts/generate_security_diagram.py    # macOS
 python  scripts/generate_security_diagram.py    # Windows
@@ -184,7 +184,7 @@ python  scripts/generate_security_diagram.py    # Windows
 
 ---
 
-## The correct order (copy-paste summary)
+## The correct order of execution (copy-paste summary)
 
 **macOS:**
 ```bash
@@ -215,7 +215,7 @@ python scripts\train_model3.py
 python scripts\generate_security_diagram.py
 ```
 
-**Important:** Steps 3–9 must run in that order — feature engineering needs the full
+**Important dependencies:** Steps 3–9 must run in that order because feature engineering needs the full
 dataset; EDA and all three model scripts need the features; Model 1 also reads
 `data/full/_risk_profile_key.csv` for the evaluation-only oracle analysis; Model 3
 reads `data/full/_fraud_key.csv` for evaluation.

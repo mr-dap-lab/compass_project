@@ -5,7 +5,7 @@
 
 **Author:** Diego Avella
 **Advisor:** Dr. Bernard Parenteau
-**Submission:** Last week of July 2026
+**Submission:** Jun 2026
 
 ---
 
@@ -31,7 +31,7 @@ All data is **fully synthetic** (no real PII), generated with a fixed seed (42) 
 | Dataset | 300 associations, 12,689 units, ~484K rows; 6 embedded fraud cases |
 | Model 1: Delinquency | Logistic Regression champion: F1 = 0.765, ROC-AUC = 0.928 (both targets met); oracle ceiling 0.811 (94.4%) |
 | Model 2: Reserve failure | Random Forest (Platt-calibrated): Brier = 0.0119, ROC-AUC = 0.970 (both targets met) |
-| Model 3: Anomaly | Isolation Forest: Precision@6 = 0.833 (target ≥ 0.70 met); ROC-AUC = 0.999 |
+| Model 3: Anomaly Detection | Isolation Forest: Precision@6 = 0.833 (target ≥ 0.70 met); ROC-AUC = 0.999 |
 | Reproducibility check | Feature pipeline prints **57 positive (19.0%)** for Model 1 |
 
 ---
@@ -41,8 +41,8 @@ All data is **fully synthetic** (no real PII), generated with a fixed seed (42) 
 ```
 compass/
 ├── README.md
-├── HOW_TO_RUN_LOCALLY.md       #  Unix based systems run guide
-├── requirements.txt            # Python libraries required
+├── HOW_TO_RUN_LOCALLY.md       #  Unix based systems, or windows based system running guide
+├── requirements.txt            # Python libraries required for running
 ├── schema/
 │   ├── cdes_v0.1.0.json              # CDES JSON Schema (draft-07)
 │   └── cdes_v0.1.0_postgres.sql      # CDES PostgreSQL DDL (10 tables + audit log + 3 views)
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 python3 scripts/preview_generator.py     # 1  schema proof (5 assoc)
 python3 scripts/render_erd.py            # 2  ERD figure
-python3 scripts/full_generator.py        # 3  full dataset  (REQUIRED before 4–7)
+python3 scripts/full_generator.py        # 3  full dataset  (REQUIRED before running the feature engineering and then the models)
 python3 scripts/feature_engineering.py   # 4  features  -> prints "57 positive (19.0%)"
 python3 scripts/eda_summary.py           # 5  EDA figure
 python3 scripts/train_model1.py          # 6  Model 1 + figure
@@ -76,10 +76,10 @@ python3 scripts/train_model3.py          # 8  Model 3 (anomaly) + figure
 python3 scripts/generate_security_diagram.py  # 9  Security architecture diagram
 ```
 
-See `HOW_TO_RUN_LOCALLY.md` for a detailed, step-by-step walkthrough
+Go to `HOW_TO_RUN_LOCALLY.md` for a detailed, step-by-step walkthrough
 
 ---
 
-## Suggested citation
+## Citation
 
 > Avella, D. (2026). *COMPASS — Community & Property Accountability System for States: A predictive analytics and cybersecurity platform for U.S. community association oversight* [Master's capstone project]. St. Thomas University.
