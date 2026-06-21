@@ -1,0 +1,6 @@
+caid,legal_name,association_type,state,city,zip,registration_date,status,total_units,year_built,building_count,coastal_flag
+CA-FL-00000001,Preview Association 1,CONDO,FL,Sample City,00000,2024-01-15,ACTIVE,120,1985,1,True
+CA-CA-00000002,Preview Association 2,HOA,CA,Sample City,00000,2024-01-15,ACTIVE,240,2005,2,True
+CA-TX-00000003,Preview Association 3,HOA,TX,Sample City,00000,2024-01-15,ACTIVE,80,2015,3,False
+CA-GA-00000004,Preview Association 4,PUD,GA,Sample City,00000,2024-01-15,ACTIVE,180,1998,1,False
+CA-NV-00000005,Preview Association 5,MIXED,NV,Sample City,00000,2024-01-15,ACTIVE,60,1978,2,False

@@ -1,0 +1,260 @@
+{
+  "_meta": {
+    "name": "COMPASS Synthetic Dataset Specification",
+    "version": "0.1.0",
+    "seed": 42,
+    "calibration": "CAI 2024 statistical review + HUD Residential Finance Survey 2024",
+    "author": "Diego Avella"
+  },
+  "scale": {
+    "total_associations": 300,
+    "target_total_units": 15000,
+    "time_period_months": 18,
+    "start_date": "2024-01-01"
+  },
+  "geographic_distribution": {
+    "states": {
+      "FL": 20,
+      "CA": 15,
+      "TX": 12,
+      "AZ": 7,
+      "GA": 6,
+      "NV": 5,
+      "NC": 5,
+      "VA": 5,
+      "IL": 5,
+      "NY": 5,
+      "WA": 4,
+      "CO": 4,
+      "MA": 3,
+      "OH": 2,
+      "PA": 2
+    }
+  },
+  "association_profile": {
+    "type_mix": {
+      "HOA": 55,
+      "CONDO": 30,
+      "PUD": 10,
+      "MIXED": 5
+    },
+    "units_per_assoc": {
+      "mu": 3.8,
+      "sigma": 0.7,
+      "min": 10,
+      "max": 800
+    },
+    "year_built": {
+      "ranges": [
+        {
+          "min": 1960,
+          "max": 1979,
+          "weight": 15
+        },
+        {
+          "min": 1980,
+          "max": 1999,
+          "weight": 35
+        },
+        {
+          "min": 2000,
+          "max": 2014,
+          "weight": 32
+        },
+        {
+          "min": 2015,
+          "max": 2023,
+          "weight": 18
+        }
+      ]
+    },
+    "coastal_states_priority": [
+      "FL",
+      "CA",
+      "NC",
+      "VA",
+      "WA",
+      "MA",
+      "NY",
+      "TX"
+    ],
+    "coastal_flag_pct": 0.25
+  },
+  "occupancy_distribution": {
+    "OWNER_OCCUPIED": 65,
+    "RENTED": 28,
+    "VACANT": 7
+  },
+  "fee_schedule": {
+    "monthly_assessment": {
+      "HOA": {
+        "mean": 285,
+        "std": 90,
+        "min": 80,
+        "max": 700
+      },
+      "CONDO": {
+        "mean": 575,
+        "std": 180,
+        "min": 150,
+        "max": 1400
+      },
+      "PUD": {
+        "mean": 220,
+        "std": 70,
+        "min": 70,
+        "max": 550
+      },
+      "MIXED": {
+        "mean": 380,
+        "std": 130,
+        "min": 100,
+        "max": 950
+      }
+    },
+    "late_fee_amount": 25,
+    "late_fee_threshold_days": 15
+  },
+  "delinquency_generation": {
+    "association_risk_profiles": {
+      "HEALTHY": {
+        "share": 55,
+        "monthly_miss_pct": 0.015
+      },
+      "MODERATE": {
+        "share": 30,
+        "monthly_miss_pct": 0.0526
+      },
+      "STRESSED": {
+        "share": 15,
+        "monthly_miss_pct": 0.18
+      }
+    },
+    "seasonal_multipliers": {
+      "1": 1.3,
+      "2": 1.0,
+      "3": 0.95,
+      "4": 0.95,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.05,
+      "8": 1.2,
+      "9": 1.0,
+      "10": 0.95,
+      "11": 1.0,
+      "12": 1.1
+    },
+    "recovery_probability_per_month": 0.42,
+    "lien_threshold_days": 90,
+    "attorney_referral_days": 120
+  },
+  "reserve_fund_generation": {
+    "snapshot_frequency_months": 3,
+    "percent_funded_distribution": {
+      "HEALTHY_CLUSTER": {
+        "mean": 70,
+        "std": 12,
+        "min": 35,
+        "max": 100
+      },
+      "MODERATE_CLUSTER": {
+        "mean": 39.5,
+        "std": 12,
+        "min": 12,
+        "max": 75
+      },
+      "CRITICAL_CLUSTER": {
+        "mean": 17,
+        "std": 8,
+        "min": 2,
+        "max": 45
+      }
+    },
+    "quarterly_trend_by_profile": {
+      "HEALTHY": 0.4,
+      "MODERATE": -0.3,
+      "STRESSED": -1.1
+    }
+  },
+  "work_orders_generation": {
+    "orders_per_assoc_per_month": {
+      "HEALTHY": {
+        "mean": 1.2,
+        "std": 0.8
+      },
+      "MODERATE": {
+        "mean": 2.8,
+        "std": 1.4
+      },
+      "STRESSED": {
+        "mean": 5.5,
+        "std": 2.2
+      }
+    },
+    "deferral_probability": {
+      "HEALTHY": 0.1,
+      "MODERATE": 0.3,
+      "STRESSED": 0.55
+    },
+    "deferred_days_lognormal": {
+      "mu": 4.0,
+      "sigma": 0.8
+    },
+    "category_distribution": {
+      "PLUMBING": 18,
+      "ELECTRICAL": 12,
+      "HVAC": 15,
+      "ROOFING": 10,
+      "STRUCTURAL": 8,
+      "LANDSCAPING": 17,
+      "ELEVATOR": 5,
+      "GENERAL": 15
+    }
+  },
+  "violations_generation": {
+    "annual_violations_per_unit": {
+      "mean": 0.18
+    },
+    "cure_rate": 0.7,
+    "fine_amount_lognormal": {
+      "mu": 4.6,
+      "sigma": 0.7
+    },
+    "category_distribution": {
+      "ARCHITECTURAL": 22,
+      "NOISE": 14,
+      "PARKING": 20,
+      "LANDSCAPING": 18,
+      "PET": 10,
+      "TRASH": 10,
+      "OTHER": 6
+    }
+  },
+  "sirs_filings_generation": {
+    "applicability": {
+      "states_required": [
+        "FL"
+      ],
+      "association_types_required": [
+        "CONDO",
+        "MIXED"
+      ],
+      "min_year_built_for_exempt": 2018
+    },
+    "overdue_rate": 0.3,
+    "findings_distribution": {
+      "NO_SIGNIFICANT_FINDINGS": 40,
+      "MINOR_REPAIRS_NEEDED": 30,
+      "MODERATE_REPAIRS_NEEDED": 20,
+      "MAJOR_STRUCTURAL_CONCERNS": 10
+    }
+  },
+  "data_quality_targets": {
+    "completeness": {
+      "associations.year_built_missing_pct": 0.05,
+      "units.square_footage_missing_pct": 0.08,
+      "units.parcel_id_missing_pct": 0.04,
+      "reserve_funds.last_study_date_missing_pct": 0.12
+    }
+  }
+}

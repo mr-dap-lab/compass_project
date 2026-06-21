@@ -1,0 +1,301 @@
+caid,legal_name,association_type,state,city,zip,registration_date,status,total_units,year_built,building_count,coastal_flag
+CA-NV-00000001,Underwood Place HOA,HOA,NV,Fairview,13278,2022-04-07,ACTIVE,63,1987.0,1,False
+CA-TX-00000002,Young Place Community Association,HOA,TX,Summerfield,42098,2023-04-21,ACTIVE,40,1996.0,1,False
+CA-TX-00000003,Herrera Towers HOA,HOA,TX,Riverton,23434,2023-08-30,ACTIVE,70,2017.0,1,False
+CA-TX-00000004,Vasquez Commons HOA,HOA,TX,Harbor Springs,81482,2022-05-16,ACTIVE,129,1988.0,1,False
+CA-CA-00000005,Castillo Gardens Owners Association,CONDO,CA,Palmetto,65302,2023-09-12,ACTIVE,37,,2,False
+CA-WA-00000006,Brooks Villas Condominium Association,HOA,WA,Lakeside,22280,2022-06-04,ACTIVE,37,1991.0,1,True
+CA-VA-00000007,Grayson Community Condominium Association,HOA,VA,Oakdale,76237,2023-10-31,ACTIVE,135,1997.0,1,True
+CA-NY-00000008,Trujillo Commons Community Association,HOA,NY,Lakeside,83563,2023-07-09,ACTIVE,76,1978.0,1,False
+CA-CA-00000009,Grayson Towers Condominium Association,HOA,CA,Harbor Springs,95181,2023-07-14,ACTIVE,32,2004.0,1,False
+CA-AZ-00000010,Whitfield Ridge HOA,HOA,AZ,Stonebridge,64987,2022-11-03,ACTIVE,65,1963.0,1,False
+CA-TX-00000011,Herrera Place Owners Association,MIXED,TX,Brookhaven,87236,2022-02-14,ACTIVE,32,2008.0,3,False
+CA-FL-00000012,Ibarra Villas Owners Association,HOA,FL,Eagle Point,10851,2022-02-16,ACTIVE,32,1988.0,1,False
+CA-AZ-00000013,Fuentes Community Owners Association,HOA,AZ,Harbor Springs,65392,2022-07-20,ACTIVE,52,1985.0,1,False
+CA-FL-00000014,Kowalski Villas HOA,PUD,FL,Summerfield,30379,2022-07-23,ACTIVE,11,2019.0,1,True
+CA-NY-00000015,Grayson Pointe Community Association,MIXED,NY,Eagle Point,54118,2023-04-30,ACTIVE,13,2002.0,5,True
+CA-IL-00000016,Delgado Place Community Association,CONDO,IL,Fairview,59797,2023-08-01,ACTIVE,30,2006.0,2,False
+CA-CA-00000017,Delgado Community Condominium Association,HOA,CA,Crestwood,55082,2023-09-24,ACTIVE,21,2003.0,1,False
+CA-CO-00000018,Trujillo Ridge Community Association,PUD,CO,Summerfield,15695,2023-03-29,ACTIVE,55,1967.0,1,False
+CA-IL-00000019,Young Community HOA,CONDO,IL,Brookhaven,80284,2023-10-01,ACTIVE,23,1983.0,4,False
+CA-VA-00000020,Delgado Pointe Community Association,CONDO,VA,Maplewood,20328,2023-03-22,ACTIVE,16,1966.0,1,True
+CA-TX-00000021,Ramsey Villas Condominium Association,PUD,TX,Summerfield,92397,2023-06-15,ACTIVE,124,,1,False
+CA-TX-00000022,Trujillo Park Owners Association,HOA,TX,Westhaven,57400,2022-09-25,ACTIVE,38,2015.0,1,True
+CA-NC-00000023,Santos Community HOA,CONDO,NC,Oakdale,19116,2023-01-15,ACTIVE,46,2010.0,1,False
+CA-FL-00000024,Brooks Estates HOA,HOA,FL,Cypress Grove,39871,2022-04-02,ACTIVE,16,2023.0,1,True
+CA-FL-00000025,Jenkins Commons Owners Association,PUD,FL,Fairview,40512,2023-03-10,ACTIVE,30,1998.0,1,True
+CA-CA-00000026,Delgado Villas HOA,CONDO,CA,Maplewood,46434,2022-08-20,ACTIVE,48,1992.0,5,True
+CA-PA-00000027,Ortega Villas Condominium Association,MIXED,PA,Cypress Grove,57819,2022-11-19,ACTIVE,19,1966.0,3,False
+CA-FL-00000028,Fuentes Place Owners Association,CONDO,FL,Crestwood,56566,2022-01-22,ACTIVE,58,2009.0,1,False
+CA-MA-00000029,Grayson Gardens Owners Association,HOA,MA,Cypress Grove,44993,2023-05-08,ACTIVE,29,1963.0,1,False
+CA-NC-00000030,Whitfield Commons Owners Association,PUD,NC,Cypress Grove,94939,2023-10-18,ACTIVE,36,2004.0,1,False
+CA-FL-00000031,Castillo Place HOA,CONDO,FL,Palmetto,93227,2023-08-10,ACTIVE,29,2004.0,1,True
+CA-MA-00000032,Fuentes Estates HOA,CONDO,MA,Stonebridge,42087,2023-01-21,ACTIVE,163,1961.0,3,False
+CA-CO-00000033,Fuentes Place Community Association,CONDO,CO,Brookhaven,59735,2022-03-07,ACTIVE,44,2020.0,6,False
+CA-FL-00000034,Ibarra Towers Community Association,PUD,FL,Cypress Grove,83000,2022-01-16,ACTIVE,21,2017.0,1,False
+CA-WA-00000035,Herrera Gardens Community Association,CONDO,WA,Cypress Grove,52504,2022-12-09,ACTIVE,79,1983.0,3,True
+CA-NY-00000036,Brooks Pointe Owners Association,PUD,NY,Oakdale,14207,2022-02-14,ACTIVE,19,1986.0,1,True
+CA-AZ-00000037,Kowalski Estates Owners Association,CONDO,AZ,Maplewood,45093,2023-10-24,ACTIVE,51,2020.0,1,False
+CA-GA-00000038,Castillo Ridge Condominium Association,HOA,GA,Oakdale,84341,2023-03-17,ACTIVE,11,2006.0,1,False
+CA-FL-00000039,Whitfield Gardens Owners Association,HOA,FL,Crestwood,37869,2022-09-17,ACTIVE,17,2012.0,1,True
+CA-FL-00000040,Underwood Place Owners Association,CONDO,FL,Brookhaven,61856,2022-01-19,ACTIVE,51,1990.0,4,False
+CA-CA-00000041,Underwood Estates Owners Association,CONDO,CA,Brookhaven,28726,2022-10-13,ACTIVE,74,2003.0,5,True
+CA-NY-00000042,Ibarra Gardens Community Association,HOA,NY,Riverton,42325,2023-06-12,ACTIVE,50,1998.0,1,False
+CA-NC-00000043,Young Pointe Condominium Association,HOA,NC,Stonebridge,80644,2023-05-13,ACTIVE,41,2009.0,1,True
+CA-FL-00000044,Ibarra Commons Community Association,HOA,FL,Harbor Springs,86622,2022-10-19,ACTIVE,36,2016.0,1,True
+CA-CA-00000045,Navarro Place Community Association,CONDO,CA,Palmetto,62350,2023-10-12,ACTIVE,15,1963.0,5,False
+CA-CA-00000046,Lozano Park Community Association,CONDO,CA,Oakdale,28131,2022-05-20,ACTIVE,27,1994.0,4,False
+CA-CO-00000047,Quintero Place Community Association,CONDO,CO,Brookhaven,21915,2022-03-01,ACTIVE,32,1988.0,2,False
+CA-CA-00000048,Brooks Estates Condominium Association,HOA,CA,Westhaven,24371,2022-11-05,ACTIVE,93,1988.0,1,True
+CA-NC-00000049,Everett Commons Community Association,CONDO,NC,Cypress Grove,30969,2022-04-13,ACTIVE,56,1973.0,6,True
+CA-FL-00000050,Vasquez Commons Condominium Association,PUD,FL,Maplewood,88172,2022-07-21,ACTIVE,13,2007.0,1,True
+CA-CA-00000051,Castillo Park Condominium Association,HOA,CA,Maplewood,60019,2022-03-05,ACTIVE,56,1970.0,1,False
+CA-AZ-00000052,Trujillo Park Condominium Association,PUD,AZ,Brookhaven,79352,2023-10-12,ACTIVE,34,2010.0,1,True
+CA-CA-00000053,Ibarra Commons Owners Association,HOA,CA,Stonebridge,11504,2023-09-10,ACTIVE,27,1990.0,1,False
+CA-AZ-00000054,Vasquez Community HOA,CONDO,AZ,Harbor Springs,25014,2023-03-24,ACTIVE,68,1971.0,2,False
+CA-NY-00000055,Vasquez Pointe Owners Association,CONDO,NY,Stonebridge,44973,2023-06-14,ACTIVE,91,1995.0,5,False
+CA-NV-00000056,Underwood Pointe Community Association,CONDO,NV,Crestwood,24621,2022-10-22,ACTIVE,85,,6,False
+CA-FL-00000057,Jenkins Ridge HOA,CONDO,FL,Maplewood,30730,2022-05-02,ACTIVE,24,2018.0,1,True
+CA-CA-00000058,Ortega Park HOA,HOA,CA,Lakeside,44522,2022-09-15,ACTIVE,36,1996.0,1,False
+CA-OH-00000059,Quintero Pointe Community Association,CONDO,OH,Eagle Point,33416,2022-08-13,ACTIVE,56,2017.0,4,False
+CA-NY-00000060,Quintero Gardens Community Association,CONDO,NY,Fairview,91959,2022-04-28,ACTIVE,88,1987.0,5,False
+CA-NC-00000061,Jenkins Towers Owners Association,HOA,NC,Westhaven,93748,2022-04-01,ACTIVE,31,1990.0,1,True
+CA-VA-00000062,Quintero Gardens Community Association,HOA,VA,Palmetto,36071,2022-02-09,ACTIVE,39,1966.0,1,True
+CA-VA-00000063,Everett Ridge Owners Association,HOA,VA,Crestwood,31174,2022-08-05,ACTIVE,20,1969.0,1,True
+CA-GA-00000064,Ramsey Pointe Condominium Association,HOA,GA,Eagle Point,79514,2023-08-01,ACTIVE,19,2023.0,1,False
+CA-VA-00000065,Alvarez Pointe Owners Association,HOA,VA,Palmetto,52487,2023-08-22,ACTIVE,78,2012.0,1,False
+CA-NY-00000066,Pruitt Community Owners Association,HOA,NY,Lakeside,24662,2023-07-26,ACTIVE,115,1989.0,1,True
+CA-NV-00000067,Lozano Estates HOA,CONDO,NV,Westhaven,50306,2023-03-19,ACTIVE,42,1960.0,4,False
+CA-FL-00000068,Herrera Ridge Owners Association,HOA,FL,Lakeside,41571,2023-09-06,ACTIVE,90,1998.0,1,False
+CA-PA-00000069,Santos Commons Community Association,HOA,PA,Fairview,21226,2022-09-05,ACTIVE,57,2009.0,1,False
+CA-CA-00000070,Young Gardens Condominium Association,CONDO,CA,Brookhaven,19071,2023-03-07,ACTIVE,28,1998.0,6,False
+CA-FL-00000071,Ramsey Pointe HOA,HOA,FL,Eagle Point,26483,2023-04-09,ACTIVE,57,2002.0,1,True
+CA-CA-00000072,Everett Ridge Condominium Association,HOA,CA,Cypress Grove,72296,2022-09-23,ACTIVE,131,2016.0,1,False
+CA-FL-00000073,Ramsey Pointe Owners Association,HOA,FL,Riverton,44741,2022-09-09,ACTIVE,43,1968.0,1,False
+CA-FL-00000074,Quintero Community Community Association,CONDO,FL,Westhaven,89507,2023-01-06,ACTIVE,133,2004.0,5,True
+CA-CA-00000075,Navarro Community Condominium Association,HOA,CA,Oakdale,80686,2022-08-08,ACTIVE,10,2015.0,1,False
+CA-AZ-00000076,Young Park Owners Association,HOA,AZ,Harbor Springs,36365,2022-10-10,ACTIVE,79,1998.0,1,False
+CA-CA-00000077,Whitfield Commons HOA,CONDO,CA,Summerfield,62296,2022-08-24,ACTIVE,47,2020.0,1,True
+CA-CA-00000078,Vasquez Place Community Association,HOA,CA,Cypress Grove,58944,2022-10-05,ACTIVE,36,,1,False
+CA-FL-00000079,Ortega Place Condominium Association,HOA,FL,Stonebridge,69177,2023-02-11,ACTIVE,47,2007.0,1,False
+CA-TX-00000080,Delgado Community Community Association,CONDO,TX,Oakdale,39451,2023-08-29,ACTIVE,11,1979.0,2,False
+CA-PA-00000081,Castillo Pointe Owners Association,PUD,PA,Crestwood,12757,2022-10-03,ACTIVE,38,1983.0,1,False
+CA-NY-00000082,Santos Estates HOA,MIXED,NY,Stonebridge,40161,2023-02-23,ACTIVE,57,1997.0,4,True
+CA-CA-00000083,Santos Park Condominium Association,CONDO,CA,Oakdale,10942,2022-09-01,ACTIVE,125,1980.0,5,True
+CA-AZ-00000084,Castillo Gardens Community Association,HOA,AZ,Harbor Springs,92719,2023-04-07,ACTIVE,31,2006.0,1,False
+CA-WA-00000085,Brooks Estates Community Association,HOA,WA,Oakdale,18834,2023-10-26,ACTIVE,25,1995.0,1,False
+CA-FL-00000086,Brooks Park HOA,MIXED,FL,Westhaven,53309,2023-07-08,ACTIVE,31,1983.0,4,False
+CA-WA-00000087,Castillo Towers Community Association,MIXED,WA,Stonebridge,41195,2023-01-12,ACTIVE,84,1968.0,6,True
+CA-VA-00000088,Ibarra Pointe Condominium Association,CONDO,VA,Cypress Grove,73624,2023-09-01,ACTIVE,56,2015.0,4,False
+CA-OH-00000089,Grayson Community Owners Association,CONDO,OH,Stonebridge,27342,2023-10-06,ACTIVE,30,2001.0,3,False
+CA-TX-00000090,Young Villas Community Association,HOA,TX,Palmetto,85525,2022-03-08,ACTIVE,64,1993.0,1,False
+CA-NC-00000091,Pruitt Community Community Association,HOA,NC,Oakdale,71993,2023-02-11,ACTIVE,47,2003.0,1,True
+CA-NC-00000092,Navarro Pointe Community Association,HOA,NC,Oakdale,22363,2023-01-27,ACTIVE,88,1991.0,1,False
+CA-FL-00000093,Delgado Pointe HOA,HOA,FL,Cypress Grove,66498,2022-01-27,ACTIVE,27,1987.0,1,True
+CA-TX-00000094,Lozano Pointe Condominium Association,HOA,TX,Maplewood,63883,2022-03-21,ACTIVE,35,2015.0,1,False
+CA-NY-00000095,Ortega Estates HOA,HOA,NY,Westhaven,17100,2022-02-28,ACTIVE,33,1988.0,1,False
+CA-NV-00000096,Vasquez Towers Community Association,HOA,NV,Cypress Grove,94696,2023-06-06,ACTIVE,16,1998.0,1,False
+CA-CA-00000097,Delgado Pointe Community Association,CONDO,CA,Lakeside,62772,2023-02-03,ACTIVE,54,2020.0,6,True
+CA-WA-00000098,Young Commons Owners Association,CONDO,WA,Crestwood,24322,2023-09-01,ACTIVE,53,1982.0,4,True
+CA-FL-00000099,Herrera Villas Condominium Association,HOA,FL,Oakdale,34931,2022-08-07,ACTIVE,44,1988.0,1,False
+CA-FL-00000100,Ramsey Park Owners Association,PUD,FL,Brookhaven,28373,2022-02-06,ACTIVE,37,2014.0,1,False
+CA-TX-00000101,Navarro Place Condominium Association,HOA,TX,Riverton,46509,2022-10-31,ACTIVE,16,2019.0,1,False
+CA-TX-00000102,Ortega Commons HOA,CONDO,TX,Oakdale,19880,2022-07-19,ACTIVE,33,2008.0,5,True
+CA-TX-00000103,Ortega Towers HOA,MIXED,TX,Eagle Point,82132,2022-11-21,ACTIVE,35,1971.0,5,True
+CA-CO-00000104,Delgado Park HOA,CONDO,CO,Lakeside,95477,2022-01-23,ACTIVE,25,1968.0,2,False
+CA-NV-00000105,Ramsey Villas Condominium Association,CONDO,NV,Westhaven,11934,2022-04-11,ACTIVE,39,1970.0,2,False
+CA-NY-00000106,Castillo Estates Condominium Association,HOA,NY,Eagle Point,40982,2022-05-28,ACTIVE,59,2012.0,1,False
+CA-CA-00000107,Fuentes Ridge Owners Association,HOA,CA,Maplewood,73653,2023-11-16,ACTIVE,167,2000.0,1,True
+CA-FL-00000108,Pruitt Towers HOA,HOA,FL,Oakdale,62565,2022-08-27,ACTIVE,50,2008.0,1,True
+CA-AZ-00000109,Brooks Park Community Association,PUD,AZ,Riverton,59672,2022-09-22,ACTIVE,53,,1,False
+CA-NC-00000110,Alvarez Estates Owners Association,HOA,NC,Maplewood,44760,2022-03-03,ACTIVE,42,2016.0,1,False
+CA-NV-00000111,Ortega Villas HOA,HOA,NV,Summerfield,65444,2022-01-31,ACTIVE,11,1999.0,1,False
+CA-NC-00000112,Whitfield Park Community Association,CONDO,NC,Harbor Springs,82845,2022-10-03,ACTIVE,43,2003.0,6,True
+CA-FL-00000113,Vasquez Villas HOA,HOA,FL,Harbor Springs,73788,2023-08-29,ACTIVE,46,2005.0,1,False
+CA-TX-00000114,Everett Towers HOA,CONDO,TX,Oakdale,48890,2022-10-08,ACTIVE,250,1984.0,3,False
+CA-WA-00000115,Grayson Ridge Condominium Association,PUD,WA,Lakeside,85914,2023-06-27,ACTIVE,39,1981.0,1,False
+CA-NC-00000116,Young Commons HOA,HOA,NC,Stonebridge,17989,2022-03-19,ACTIVE,55,1977.0,1,True
+CA-CO-00000117,Young Towers HOA,CONDO,CO,Crestwood,17492,2023-05-31,ACTIVE,43,1985.0,2,False
+CA-GA-00000118,Brooks Park Owners Association,HOA,GA,Palmetto,72493,2023-06-24,ACTIVE,19,1960.0,1,False
+CA-TX-00000119,Quintero Ridge HOA,CONDO,TX,Westhaven,79615,2022-01-11,ACTIVE,99,2009.0,1,False
+CA-CA-00000120,Fuentes Towers Community Association,CONDO,CA,Lakeside,76562,2023-08-11,ACTIVE,75,1994.0,3,True
+CA-NC-00000121,Castillo Community Condominium Association,CONDO,NC,Westhaven,34356,2023-01-28,ACTIVE,77,2004.0,2,True
+CA-IL-00000122,Castillo Commons Condominium Association,CONDO,IL,Palmetto,18907,2022-07-08,ACTIVE,23,1983.0,5,True
+CA-NY-00000123,Vasquez Towers Community Association,CONDO,NY,Westhaven,40828,2022-04-24,ACTIVE,119,1961.0,4,True
+CA-VA-00000124,Mendez Park Owners Association,HOA,VA,Fairview,84668,2023-09-03,ACTIVE,16,1960.0,1,False
+CA-TX-00000125,Herrera Towers Condominium Association,HOA,TX,Palmetto,87924,2022-12-26,ACTIVE,67,1992.0,1,True
+CA-IL-00000126,Brooks Estates Condominium Association,HOA,IL,Palmetto,20745,2023-08-19,ACTIVE,207,2008.0,1,False
+CA-FL-00000127,Navarro Park Community Association,HOA,FL,Cypress Grove,86503,2022-05-04,ACTIVE,22,2012.0,1,False
+CA-IL-00000128,Santos Villas Community Association,HOA,IL,Stonebridge,51467,2022-09-06,ACTIVE,30,2020.0,1,False
+CA-NV-00000129,Ibarra Community Owners Association,CONDO,NV,Oakdale,97782,2023-02-12,ACTIVE,47,2005.0,1,False
+CA-NV-00000130,Whitfield Community Community Association,MIXED,NV,Crestwood,41285,2022-04-26,ACTIVE,31,1979.0,6,False
+CA-FL-00000131,Ibarra Villas Condominium Association,CONDO,FL,Maplewood,27154,2023-10-23,ACTIVE,15,2000.0,2,True
+CA-VA-00000132,Vasquez Commons Owners Association,MIXED,VA,Cypress Grove,49321,2022-03-30,ACTIVE,46,2009.0,1,True
+CA-IL-00000133,Ortega Ridge Condominium Association,CONDO,IL,Crestwood,19508,2022-12-26,ACTIVE,21,1963.0,1,False
+CA-GA-00000134,Alvarez Place Community Association,HOA,GA,Brookhaven,91416,2022-02-12,ACTIVE,62,1992.0,1,False
+CA-IL-00000135,Santos Villas Community Association,CONDO,IL,Fairview,19602,2022-06-30,ACTIVE,23,2013.0,3,False
+CA-FL-00000136,Ramsey Estates Condominium Association,HOA,FL,Oakdale,76307,2023-09-14,ACTIVE,132,2020.0,1,False
+CA-CA-00000137,Ibarra Towers Condominium Association,CONDO,CA,Riverton,55745,2022-03-31,ACTIVE,25,,4,False
+CA-FL-00000138,Castillo Commons Owners Association,HOA,FL,Oakdale,58434,2023-04-03,ACTIVE,35,2009.0,1,False
+CA-OH-00000139,Jenkins Park Condominium Association,CONDO,OH,Riverton,67433,2022-11-21,ACTIVE,79,2012.0,6,False
+CA-MA-00000140,Ramsey Estates Condominium Association,MIXED,MA,Harbor Springs,49651,2022-03-23,ACTIVE,18,1989.0,2,False
+CA-WA-00000141,Trujillo Villas Owners Association,HOA,WA,Eagle Point,95717,2023-09-08,ACTIVE,52,1991.0,1,False
+CA-IL-00000142,Quintero Park Owners Association,HOA,IL,Lakeside,97538,2023-11-05,ACTIVE,111,2017.0,1,False
+CA-TX-00000143,Ramsey Villas Owners Association,HOA,TX,Summerfield,96951,2023-07-06,ACTIVE,14,,1,False
+CA-FL-00000144,Delgado Villas HOA,HOA,FL,Riverton,44664,2023-03-15,ACTIVE,50,2017.0,1,False
+CA-CA-00000145,Delgado Villas HOA,HOA,CA,Fairview,82512,2023-04-02,ACTIVE,53,2023.0,1,True
+CA-TX-00000146,Everett Place Condominium Association,CONDO,TX,Summerfield,46930,2023-07-08,ACTIVE,77,1983.0,3,False
+CA-TX-00000147,Trujillo Towers HOA,CONDO,TX,Oakdale,54942,2022-06-12,ACTIVE,18,1993.0,5,True
+CA-AZ-00000148,Grayson Towers Owners Association,MIXED,AZ,Cypress Grove,93130,2023-11-16,ACTIVE,17,2006.0,3,False
+CA-IL-00000149,Ibarra Estates HOA,HOA,IL,Stonebridge,74032,2022-12-07,ACTIVE,64,2010.0,1,False
+CA-GA-00000150,Ibarra Estates HOA,CONDO,GA,Westhaven,16658,2022-08-21,ACTIVE,55,1994.0,1,False
+CA-CA-00000151,Castillo Place Community Association,HOA,CA,Cypress Grove,65518,2023-03-18,ACTIVE,53,1981.0,1,True
+CA-FL-00000152,Ibarra Towers Community Association,CONDO,FL,Lakeside,10464,2022-10-19,ACTIVE,56,1981.0,6,False
+CA-TX-00000153,Kowalski Place Owners Association,MIXED,TX,Eagle Point,27146,2023-09-09,ACTIVE,27,1985.0,6,True
+CA-TX-00000154,Underwood Pointe Owners Association,HOA,TX,Summerfield,31178,2022-09-02,ACTIVE,52,2017.0,1,True
+CA-NV-00000155,Young Ridge Community Association,HOA,NV,Brookhaven,82309,2023-02-24,ACTIVE,54,2005.0,1,False
+CA-NV-00000156,Whitfield Community Condominium Association,CONDO,NV,Maplewood,83519,2022-03-20,ACTIVE,27,1972.0,6,False
+CA-IL-00000157,Alvarez Estates Community Association,HOA,IL,Fairview,19862,2022-11-18,ACTIVE,165,,1,False
+CA-TX-00000158,Whitfield Villas HOA,CONDO,TX,Riverton,81511,2023-05-26,ACTIVE,62,2008.0,4,True
+CA-AZ-00000159,Brooks Park Condominium Association,PUD,AZ,Westhaven,58393,2023-07-30,ACTIVE,19,1968.0,1,False
+CA-FL-00000160,Santos Towers Owners Association,HOA,FL,Stonebridge,29410,2023-09-27,ACTIVE,70,1994.0,1,False
+CA-GA-00000161,Navarro Towers Condominium Association,HOA,GA,Riverton,15482,2023-07-31,ACTIVE,22,1985.0,1,False
+CA-PA-00000162,Jenkins Place Condominium Association,CONDO,PA,Crestwood,15229,2022-03-16,ACTIVE,77,1995.0,1,True
+CA-FL-00000163,Lozano Villas Condominium Association,HOA,FL,Oakdale,99399,2023-01-12,ACTIVE,100,2007.0,1,True
+CA-NV-00000164,Herrera Ridge Condominium Association,HOA,NV,Cypress Grove,23473,2023-07-23,ACTIVE,25,2005.0,1,False
+CA-TX-00000165,Lozano Gardens Owners Association,PUD,TX,Eagle Point,83385,2022-06-19,ACTIVE,87,1963.0,1,True
+CA-CO-00000166,Navarro Villas Condominium Association,CONDO,CO,Palmetto,30257,2022-04-05,ACTIVE,59,1997.0,5,False
+CA-FL-00000167,Herrera Community HOA,CONDO,FL,Westhaven,31299,2023-10-17,ACTIVE,79,,6,True
+CA-IL-00000168,Fuentes Place Owners Association,HOA,IL,Maplewood,13248,2022-02-13,ACTIVE,168,1998.0,1,False
+CA-MA-00000169,Fuentes Estates Community Association,HOA,MA,Harbor Springs,53540,2022-10-03,ACTIVE,37,2010.0,1,True
+CA-AZ-00000170,Navarro Towers Community Association,HOA,AZ,Eagle Point,97806,2023-07-22,ACTIVE,26,2005.0,1,False
+CA-IL-00000171,Young Villas HOA,HOA,IL,Eagle Point,42527,2023-02-08,ACTIVE,23,1967.0,1,False
+CA-MA-00000172,Ibarra Gardens Condominium Association,PUD,MA,Riverton,24168,2022-07-10,ACTIVE,25,1985.0,1,False
+CA-PA-00000173,Mendez Gardens Condominium Association,HOA,PA,Westhaven,15075,2022-04-14,ACTIVE,42,2022.0,1,True
+CA-TX-00000174,Pruitt Estates Owners Association,HOA,TX,Oakdale,36158,2022-11-23,ACTIVE,56,1995.0,1,True
+CA-IL-00000175,Ortega Commons Community Association,HOA,IL,Crestwood,50001,2022-05-18,ACTIVE,54,1998.0,1,False
+CA-CA-00000176,Herrera Towers Owners Association,MIXED,CA,Oakdale,13101,2023-07-08,ACTIVE,79,2001.0,2,True
+CA-NV-00000177,Vasquez Park Condominium Association,HOA,NV,Oakdale,62227,2022-03-22,ACTIVE,45,1961.0,1,False
+CA-CO-00000178,Kowalski Pointe Owners Association,HOA,CO,Summerfield,19099,2022-07-01,ACTIVE,123,2020.0,1,False
+CA-NY-00000179,Ibarra Villas Community Association,HOA,NY,Crestwood,94080,2022-04-14,ACTIVE,37,2004.0,1,True
+CA-CA-00000180,Quintero Ridge Condominium Association,PUD,CA,Maplewood,99065,2023-10-11,ACTIVE,300,2015.0,1,False
+CA-GA-00000181,Ramsey Gardens HOA,HOA,GA,Crestwood,13617,2022-04-25,ACTIVE,69,2009.0,1,False
+CA-MA-00000182,Delgado Place Community Association,HOA,MA,Summerfield,33405,2023-09-30,ACTIVE,24,1970.0,1,True
+CA-VA-00000183,Santos Park Owners Association,HOA,VA,Summerfield,15014,2022-05-22,ACTIVE,21,2010.0,1,True
+CA-TX-00000184,Delgado Gardens Owners Association,CONDO,TX,Palmetto,66959,2022-05-10,ACTIVE,62,2010.0,3,False
+CA-CA-00000185,Lozano Park Owners Association,MIXED,CA,Harbor Springs,51114,2022-05-08,ACTIVE,38,1989.0,6,False
+CA-CA-00000186,Navarro Estates Owners Association,HOA,CA,Palmetto,77033,2023-10-20,ACTIVE,73,2006.0,1,False
+CA-CA-00000187,Delgado Place Owners Association,CONDO,CA,Maplewood,85574,2022-05-06,ACTIVE,62,1994.0,6,False
+CA-CA-00000188,Grayson Gardens HOA,HOA,CA,Summerfield,15817,2023-08-22,ACTIVE,42,2003.0,1,True
+CA-TX-00000189,Whitfield Commons Community Association,CONDO,TX,Maplewood,10221,2022-08-01,ACTIVE,24,1964.0,6,True
+CA-FL-00000190,Quintero Place HOA,MIXED,FL,Eagle Point,80575,2023-06-06,ACTIVE,15,1981.0,4,False
+CA-WA-00000191,Vasquez Pointe HOA,HOA,WA,Harbor Springs,97900,2023-11-23,ACTIVE,32,2021.0,1,False
+CA-CA-00000192,Grayson Park Condominium Association,CONDO,CA,Crestwood,66531,2022-07-04,ACTIVE,81,2020.0,4,True
+CA-CA-00000193,Castillo Towers Owners Association,CONDO,CA,Cypress Grove,53279,2022-04-30,ACTIVE,51,,6,False
+CA-IL-00000194,Trujillo Villas Condominium Association,HOA,IL,Crestwood,96951,2023-07-12,ACTIVE,18,2021.0,1,False
+CA-AZ-00000195,Delgado Pointe HOA,PUD,AZ,Harbor Springs,49363,2023-03-10,ACTIVE,50,1972.0,1,False
+CA-NC-00000196,Quintero Pointe HOA,CONDO,NC,Summerfield,97410,2022-02-16,ACTIVE,58,1963.0,3,True
+CA-TX-00000197,Navarro Commons Community Association,HOA,TX,Crestwood,62743,2022-05-31,ACTIVE,24,2022.0,1,True
+CA-NY-00000198,Whitfield Park Owners Association,CONDO,NY,Summerfield,82667,2023-09-14,ACTIVE,49,2010.0,5,False
+CA-FL-00000199,Everett Place Community Association,CONDO,FL,Oakdale,65108,2023-08-05,ACTIVE,46,2018.0,6,False
+CA-CA-00000200,Vasquez Commons Community Association,CONDO,CA,Maplewood,98777,2022-05-04,ACTIVE,20,1976.0,1,True
+CA-GA-00000201,Young Ridge HOA,CONDO,GA,Riverton,90676,2023-10-17,ACTIVE,57,1980.0,4,False
+CA-CA-00000202,Santos Estates Condominium Association,HOA,CA,Summerfield,63225,2022-02-14,ACTIVE,66,2016.0,1,False
+CA-OH-00000203,Ramsey Villas Condominium Association,CONDO,OH,Westhaven,10053,2022-02-01,ACTIVE,95,1992.0,3,False
+CA-FL-00000204,Jenkins Community Owners Association,MIXED,FL,Summerfield,37549,2022-08-15,ACTIVE,93,,6,False
+CA-VA-00000205,Navarro Villas HOA,HOA,VA,Eagle Point,86019,2022-01-25,ACTIVE,17,1987.0,1,True
+CA-TX-00000206,Trujillo Park HOA,CONDO,TX,Cypress Grove,52237,2023-03-27,ACTIVE,23,2015.0,6,True
+CA-FL-00000207,Ortega Pointe Condominium Association,HOA,FL,Brookhaven,67954,2022-04-22,ACTIVE,64,2012.0,1,False
+CA-CA-00000208,Vasquez Place Condominium Association,CONDO,CA,Oakdale,77000,2022-10-05,ACTIVE,64,2005.0,3,True
+CA-CA-00000209,Pruitt Park HOA,CONDO,CA,Eagle Point,32241,2022-12-15,ACTIVE,64,2011.0,6,False
+CA-NC-00000210,Vasquez Place Community Association,CONDO,NC,Fairview,47196,2023-03-31,ACTIVE,663,1993.0,2,True
+CA-CA-00000211,Quintero Place Condominium Association,CONDO,CA,Cypress Grove,92960,2022-10-31,ACTIVE,66,2014.0,2,True
+CA-CA-00000212,Trujillo Gardens HOA,HOA,CA,Crestwood,22240,2023-03-03,ACTIVE,98,1974.0,1,False
+CA-TX-00000213,Herrera Place Condominium Association,CONDO,TX,Cypress Grove,50687,2022-07-30,ACTIVE,87,1962.0,2,True
+CA-WA-00000214,Herrera Park Condominium Association,HOA,WA,Eagle Point,36100,2022-03-24,ACTIVE,70,2015.0,1,True
+CA-VA-00000215,Everett Towers Owners Association,HOA,VA,Lakeside,16057,2023-03-10,ACTIVE,35,1990.0,1,False
+CA-TX-00000216,Herrera Towers Community Association,PUD,TX,Brookhaven,90120,2023-10-17,ACTIVE,76,1995.0,1,False
+CA-GA-00000217,Castillo Pointe Condominium Association,HOA,GA,Brookhaven,64321,2023-05-16,ACTIVE,26,1968.0,1,False
+CA-CA-00000218,Underwood Park Community Association,HOA,CA,Palmetto,35485,2022-08-18,ACTIVE,37,2022.0,1,False
+CA-FL-00000219,Whitfield Community HOA,CONDO,FL,Harbor Springs,60328,2023-09-17,ACTIVE,31,1997.0,6,True
+CA-FL-00000220,Pruitt Park Owners Association,HOA,FL,Maplewood,41979,2023-10-02,ACTIVE,47,1967.0,1,True
+CA-NV-00000221,Everett Commons HOA,CONDO,NV,Cypress Grove,10726,2023-11-15,ACTIVE,225,2007.0,5,False
+CA-VA-00000222,Delgado Estates HOA,HOA,VA,Eagle Point,65724,2023-08-26,ACTIVE,12,1996.0,1,False
+CA-AZ-00000223,Herrera Towers Community Association,HOA,AZ,Riverton,77889,2022-08-19,ACTIVE,72,2004.0,1,False
+CA-GA-00000224,Ortega Villas Community Association,MIXED,GA,Lakeside,83060,2022-11-09,ACTIVE,14,1982.0,4,False
+CA-GA-00000225,Herrera Towers HOA,HOA,GA,Westhaven,25906,2022-06-10,ACTIVE,32,1965.0,1,False
+CA-CO-00000226,Ortega Pointe HOA,HOA,CO,Riverton,70901,2023-06-02,ACTIVE,95,2022.0,1,False
+CA-CO-00000227,Vasquez Villas Owners Association,HOA,CO,Stonebridge,83259,2023-06-19,ACTIVE,46,2017.0,1,False
+CA-GA-00000228,Trujillo Villas Owners Association,CONDO,GA,Crestwood,68008,2023-10-09,ACTIVE,21,2023.0,1,False
+CA-TX-00000229,Trujillo Community Owners Association,CONDO,TX,Westhaven,76162,2022-08-28,ACTIVE,27,1999.0,4,False
+CA-CA-00000230,Navarro Ridge Owners Association,CONDO,CA,Westhaven,81810,2023-03-25,ACTIVE,71,1985.0,6,False
+CA-FL-00000231,Ortega Community Owners Association,HOA,FL,Riverton,72216,2022-09-03,ACTIVE,26,1984.0,1,False
+CA-TX-00000232,Ortega Villas HOA,HOA,TX,Summerfield,42406,2023-09-02,ACTIVE,52,1965.0,1,True
+CA-TX-00000233,Underwood Villas Condominium Association,HOA,TX,Summerfield,78327,2022-04-26,ACTIVE,46,2005.0,1,False
+CA-AZ-00000234,Pruitt Commons Owners Association,CONDO,AZ,Cypress Grove,41358,2022-09-27,ACTIVE,28,1988.0,3,False
+CA-AZ-00000235,Ibarra Park HOA,HOA,AZ,Brookhaven,20155,2023-07-17,ACTIVE,200,1987.0,1,False
+CA-CA-00000236,Whitfield Commons Condominium Association,PUD,CA,Summerfield,40735,2023-01-29,ACTIVE,69,1999.0,1,True
+CA-CA-00000237,Ibarra Park Condominium Association,PUD,CA,Crestwood,51904,2023-01-03,ACTIVE,10,1990.0,1,True
+CA-TX-00000238,Ramsey Estates HOA,CONDO,TX,Fairview,28136,2022-08-17,ACTIVE,50,1983.0,6,False
+CA-CA-00000239,Everett Park Condominium Association,CONDO,CA,Oakdale,60205,2022-02-22,ACTIVE,28,2016.0,3,False
+CA-CA-00000240,Whitfield Ridge Community Association,CONDO,CA,Riverton,38043,2022-06-03,ACTIVE,81,2012.0,5,True
+CA-CO-00000241,Castillo Place HOA,PUD,CO,Maplewood,63424,2023-08-13,ACTIVE,25,1981.0,1,False
+CA-IL-00000242,Kowalski Commons Owners Association,CONDO,IL,Stonebridge,71069,2022-09-18,ACTIVE,41,1999.0,1,True
+CA-FL-00000243,Navarro Towers Community Association,HOA,FL,Lakeside,37110,2022-08-15,ACTIVE,63,2008.0,1,False
+CA-IL-00000244,Navarro Villas HOA,CONDO,IL,Maplewood,86556,2023-07-10,ACTIVE,81,2005.0,3,False
+CA-CA-00000245,Whitfield Park Owners Association,HOA,CA,Lakeside,85456,2023-09-25,ACTIVE,19,1995.0,1,True
+CA-CA-00000246,Mendez Gardens Condominium Association,CONDO,CA,Brookhaven,10772,2022-05-16,ACTIVE,35,1970.0,2,False
+CA-CA-00000247,Lozano Commons HOA,HOA,CA,Summerfield,61116,2022-03-14,ACTIVE,32,1992.0,1,False
+CA-WA-00000248,Navarro Villas HOA,HOA,WA,Stonebridge,81582,2022-06-01,ACTIVE,28,1980.0,1,False
+CA-FL-00000249,Trujillo Towers Community Association,HOA,FL,Oakdale,73993,2022-03-17,ACTIVE,153,1988.0,1,False
+CA-TX-00000250,Herrera Pointe HOA,HOA,TX,Summerfield,67125,2022-01-13,ACTIVE,59,1994.0,1,False
+CA-FL-00000251,Pruitt Ridge Condominium Association,HOA,FL,Lakeside,60968,2022-04-23,ACTIVE,18,1985.0,1,True
+CA-TX-00000252,Kowalski Estates Community Association,HOA,TX,Cypress Grove,99016,2023-02-10,ACTIVE,84,2011.0,1,False
+CA-FL-00000253,Mendez Gardens Community Association,HOA,FL,Harbor Springs,31632,2022-05-06,ACTIVE,197,1981.0,1,False
+CA-AZ-00000254,Ortega Ridge HOA,HOA,AZ,Riverton,91560,2023-04-21,ACTIVE,92,2006.0,1,False
+CA-CA-00000255,Ramsey Park HOA,HOA,CA,Lakeside,61645,2022-04-25,ACTIVE,15,2002.0,1,False
+CA-FL-00000256,Santos Park Condominium Association,CONDO,FL,Palmetto,96900,2022-09-23,ACTIVE,31,2020.0,1,True
+CA-VA-00000257,Alvarez Park HOA,CONDO,VA,Fairview,94246,2023-04-04,ACTIVE,108,1981.0,2,True
+CA-NY-00000258,Navarro Gardens Condominium Association,CONDO,NY,Riverton,70515,2023-10-03,ACTIVE,27,1999.0,5,False
+CA-TX-00000259,Fuentes Place HOA,HOA,TX,Lakeside,44099,2023-07-17,ACTIVE,60,2005.0,1,False
+CA-OH-00000260,Mendez Gardens Condominium Association,CONDO,OH,Crestwood,37742,2023-01-07,ACTIVE,76,2019.0,2,False
+CA-IL-00000261,Ortega Villas HOA,CONDO,IL,Crestwood,54236,2022-10-16,ACTIVE,23,1998.0,5,False
+CA-VA-00000262,Mendez Villas Community Association,CONDO,VA,Summerfield,65255,2022-02-20,ACTIVE,42,,6,False
+CA-NC-00000263,Ibarra Pointe Owners Association,PUD,NC,Westhaven,20735,2023-02-15,ACTIVE,10,2006.0,1,True
+CA-CA-00000264,Pruitt Community HOA,CONDO,CA,Lakeside,80702,2022-03-01,ACTIVE,21,2007.0,4,False
+CA-FL-00000265,Brooks Estates Owners Association,PUD,FL,Crestwood,39389,2023-06-23,ACTIVE,37,1994.0,1,True
+CA-WA-00000266,Underwood Estates HOA,PUD,WA,Fairview,95426,2022-10-23,ACTIVE,18,1971.0,1,True
+CA-NV-00000267,Brooks Park HOA,CONDO,NV,Eagle Point,14067,2023-07-20,ACTIVE,140,,5,False
+CA-CA-00000268,Herrera Estates Community Association,CONDO,CA,Oakdale,12671,2023-09-21,ACTIVE,16,1970.0,2,False
+CA-TX-00000269,Trujillo Estates Condominium Association,CONDO,TX,Riverton,41266,2023-09-23,ACTIVE,32,1970.0,5,True
+CA-GA-00000270,Everett Commons Community Association,CONDO,GA,Brookhaven,97747,2023-04-24,ACTIVE,48,1991.0,1,False
+CA-CO-00000271,Delgado Gardens Owners Association,HOA,CO,Palmetto,38569,2022-02-10,ACTIVE,122,1972.0,1,False
+CA-FL-00000272,Ortega Pointe Condominium Association,CONDO,FL,Harbor Springs,43586,2022-06-20,ACTIVE,16,,5,True
+CA-AZ-00000273,Lozano Commons HOA,CONDO,AZ,Riverton,89415,2023-03-31,ACTIVE,100,1981.0,4,False
+CA-NV-00000274,Trujillo Ridge Community Association,HOA,NV,Harbor Springs,25012,2022-11-23,ACTIVE,45,2015.0,1,False
+CA-GA-00000275,Fuentes Community HOA,HOA,GA,Summerfield,24168,2022-10-21,ACTIVE,22,1982.0,1,True
+CA-AZ-00000276,Santos Place Condominium Association,CONDO,AZ,Lakeside,50888,2023-02-21,ACTIVE,61,2006.0,1,False
+CA-CA-00000277,Santos Villas Owners Association,HOA,CA,Cypress Grove,59192,2022-09-11,ACTIVE,51,1984.0,1,True
+CA-VA-00000278,Mendez Community Owners Association,CONDO,VA,Harbor Springs,35995,2022-01-19,ACTIVE,29,1962.0,6,False
+CA-NC-00000279,Castillo Place Owners Association,HOA,NC,Palmetto,92213,2023-06-15,ACTIVE,46,1964.0,1,False
+CA-TX-00000280,Herrera Pointe HOA,CONDO,TX,Fairview,49529,2023-03-08,ACTIVE,34,2016.0,6,False
+CA-OH-00000281,Vasquez Towers Condominium Association,CONDO,OH,Palmetto,25866,2023-03-16,ACTIVE,48,1996.0,1,False
+CA-CO-00000282,Santos Community Community Association,CONDO,CO,Eagle Point,15383,2022-11-25,ACTIVE,71,,4,True
+CA-CO-00000283,Lozano Commons Condominium Association,HOA,CO,Stonebridge,66148,2023-01-07,ACTIVE,135,2015.0,1,False
+CA-CA-00000284,Vasquez Community Condominium Association,PUD,CA,Crestwood,19038,2023-04-18,ACTIVE,18,1982.0,1,False
+CA-NY-00000285,Quintero Pointe Owners Association,MIXED,NY,Cypress Grove,54725,2023-09-05,ACTIVE,198,2016.0,5,False
+CA-TX-00000286,Alvarez Park Condominium Association,HOA,TX,Westhaven,65057,2022-05-22,ACTIVE,11,1989.0,1,False
+CA-IL-00000287,Pruitt Community Owners Association,HOA,IL,Fairview,66822,2023-12-01,ACTIVE,40,1973.0,1,True
+CA-IL-00000288,Lozano Park HOA,HOA,IL,Cypress Grove,70258,2023-07-10,ACTIVE,67,2004.0,1,False
+CA-VA-00000289,Whitfield Villas HOA,HOA,VA,Riverton,67080,2022-07-03,ACTIVE,54,2023.0,1,True
+CA-FL-00000290,Fuentes Pointe Owners Association,CONDO,FL,Harbor Springs,78386,2023-01-14,ACTIVE,28,1978.0,4,True
+CA-VA-00000291,Underwood Ridge HOA,CONDO,VA,Summerfield,90728,2023-06-26,ACTIVE,38,1988.0,1,True
+CA-FL-00000292,Ramsey Park Owners Association,HOA,FL,Eagle Point,73372,2023-08-02,ACTIVE,31,1997.0,1,True
+CA-FL-00000293,Ortega Villas Condominium Association,CONDO,FL,Maplewood,87656,2022-12-03,ACTIVE,29,1999.0,4,True
+CA-AZ-00000294,Ibarra Place Condominium Association,CONDO,AZ,Crestwood,42177,2023-08-28,ACTIVE,81,1985.0,4,True
+CA-FL-00000295,Castillo Commons Owners Association,CONDO,FL,Summerfield,69087,2022-02-25,ACTIVE,57,1961.0,6,False
+CA-FL-00000296,Herrera Park Condominium Association,CONDO,FL,Eagle Point,70910,2023-08-30,ACTIVE,27,2016.0,3,True
+CA-FL-00000297,Santos Commons Community Association,PUD,FL,Palmetto,97580,2023-06-09,ACTIVE,83,1978.0,1,True
+CA-TX-00000298,Mendez Gardens Owners Association,PUD,TX,Crestwood,13761,2022-07-10,ACTIVE,55,1994.0,1,False
+CA-TX-00000299,Pruitt Place Condominium Association,CONDO,TX,Westhaven,52600,2022-02-25,ACTIVE,78,1968.0,5,True
+CA-IL-00000300,Fuentes Ridge Owners Association,MIXED,IL,Brookhaven,37802,2022-10-31,ACTIVE,69,2005.0,3,False

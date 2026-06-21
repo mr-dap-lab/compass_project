@@ -1,0 +1,7 @@
+caid,pattern
+CA-WA-00000191,vendor_payment_concentration
+CA-TX-00000259,vendor_payment_concentration
+CA-CA-00000053,collection_gap_anomaly
+CA-VA-00000183,collection_gap_anomaly
+CA-CA-00000176,reserve_balance_irregularity
+CA-GA-00000118,reserve_balance_irregularity

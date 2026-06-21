@@ -1,0 +1,535 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://compass.gov/schemas/cdes/v0.1.0",
+  "title": "COMPASS Data Exchange Standard (CDES) v0.1.0",
+  "description": "Capstone-scope schema: Registry, Financial, and Compliance domains for U.S. community-association data interoperability. Author: Diego Avella.",
+  "type": "object",
+  "definitions": {
+    "associations": {
+      "type": "object",
+      "properties": {
+        "caid": {
+          "type": "string",
+          "description": "CA-[STATE]-[8 digits]"
+        },
+        "legal_name": {
+          "type": "string"
+        },
+        "association_type": {
+          "type": "string",
+          "description": "HOA|CONDO|PUD|MIXED"
+        },
+        "state": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "zip": {
+          "type": "string"
+        },
+        "registration_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "type": "string",
+          "description": "ACTIVE|INACTIVE|DISSOLVED"
+        },
+        "total_units": {
+          "type": "integer"
+        },
+        "year_built": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "nullable"
+        },
+        "building_count": {
+          "type": "integer"
+        },
+        "coastal_flag": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "caid",
+        "legal_name",
+        "association_type",
+        "state",
+        "city",
+        "zip",
+        "registration_date",
+        "status",
+        "total_units",
+        "building_count",
+        "coastal_flag"
+      ],
+      "additionalProperties": false
+    },
+    "units": {
+      "type": "object",
+      "properties": {
+        "unit_id": {
+          "type": "string",
+          "description": "U-[12 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "unit_number": {
+          "type": "string"
+        },
+        "unit_type": {
+          "type": "string"
+        },
+        "square_footage": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "nullable"
+        },
+        "bedrooms": {
+          "type": "integer"
+        },
+        "occupancy_status": {
+          "type": "string",
+          "description": "OWNER_OCCUPIED|RENTED|VACANT"
+        },
+        "parcel_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "nullable"
+        }
+      },
+      "required": [
+        "unit_id",
+        "caid",
+        "unit_number",
+        "unit_type",
+        "bedrooms",
+        "occupancy_status"
+      ],
+      "additionalProperties": false
+    },
+    "fee_schedules": {
+      "type": "object",
+      "properties": {
+        "fee_schedule_id": {
+          "type": "string",
+          "description": "FS-[12 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "effective_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "expiration_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "nullable"
+        },
+        "monthly_assessment": {
+          "type": "number"
+        },
+        "frequency": {
+          "type": "string"
+        },
+        "late_fee_amount": {
+          "type": "number"
+        },
+        "late_fee_threshold_days": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "fee_schedule_id",
+        "caid",
+        "effective_date",
+        "monthly_assessment",
+        "frequency",
+        "late_fee_amount",
+        "late_fee_threshold_days"
+      ],
+      "additionalProperties": false
+    },
+    "payment_ledger": {
+      "type": "object",
+      "properties": {
+        "ledger_entry_id": {
+          "type": "string",
+          "description": "LE-[16 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "unit_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "nullable"
+        },
+        "transaction_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "transaction_type": {
+          "type": "string",
+          "description": "ASSESSMENT_CHARGE|PAYMENT|ADJUSTMENT"
+        },
+        "amount": {
+          "type": "number"
+        },
+        "balance_after": {
+          "type": "number"
+        },
+        "payment_method": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "nullable"
+        }
+      },
+      "required": [
+        "ledger_entry_id",
+        "caid",
+        "transaction_date",
+        "transaction_type",
+        "amount",
+        "balance_after"
+      ],
+      "additionalProperties": false
+    },
+    "delinquency_records": {
+      "type": "object",
+      "properties": {
+        "delinquency_id": {
+          "type": "string",
+          "description": "DL-[16 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "snapshot_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "unit_id": {
+          "type": "string"
+        },
+        "days_delinquent": {
+          "type": "integer"
+        },
+        "amount_owed": {
+          "type": "number"
+        },
+        "aging_bucket": {
+          "type": "string",
+          "description": "CURRENT|DAYS_1_30|...|DAYS_OVER_120"
+        },
+        "lien_filed": {
+          "type": "boolean"
+        },
+        "attorney_referred": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "delinquency_id",
+        "caid",
+        "snapshot_date",
+        "unit_id",
+        "days_delinquent",
+        "amount_owed",
+        "aging_bucket",
+        "lien_filed",
+        "attorney_referred"
+      ],
+      "additionalProperties": false
+    },
+    "reserve_funds": {
+      "type": "object",
+      "properties": {
+        "reserve_id": {
+          "type": "string",
+          "description": "RF-[12 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "snapshot_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "current_balance": {
+          "type": "number"
+        },
+        "fully_funded_target": {
+          "type": "number"
+        },
+        "percent_funded": {
+          "type": "number"
+        },
+        "annual_contribution": {
+          "type": "number"
+        },
+        "last_study_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "nullable"
+        },
+        "study_type": {
+          "type": "string",
+          "description": "SIRS|STANDARD|INFORMAL"
+        }
+      },
+      "required": [
+        "reserve_id",
+        "caid",
+        "snapshot_date",
+        "current_balance",
+        "fully_funded_target",
+        "percent_funded",
+        "annual_contribution",
+        "study_type"
+      ],
+      "additionalProperties": false
+    },
+    "work_orders": {
+      "type": "object",
+      "properties": {
+        "work_order_id": {
+          "type": "string",
+          "description": "WO-[12 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "unit_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "nullable"
+        },
+        "created_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "category": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "string",
+          "description": "EMERGENCY|HIGH|MEDIUM|LOW"
+        },
+        "status": {
+          "type": "string",
+          "description": "OPEN|DEFERRED|COMPLETED"
+        },
+        "estimated_cost": {
+          "type": "number"
+        },
+        "actual_cost": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "nullable"
+        },
+        "completion_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "nullable"
+        },
+        "deferred_days": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "work_order_id",
+        "caid",
+        "created_date",
+        "category",
+        "priority",
+        "status",
+        "estimated_cost",
+        "deferred_days"
+      ],
+      "additionalProperties": false
+    },
+    "violations": {
+      "type": "object",
+      "properties": {
+        "violation_id": {
+          "type": "string",
+          "description": "VL-[12 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "unit_id": {
+          "type": "string"
+        },
+        "issue_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "violation_category": {
+          "type": "string"
+        },
+        "cure_deadline": {
+          "type": "string",
+          "format": "date"
+        },
+        "fine_amount": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "description": "OPEN|CURED|DISMISSED|ESCALATED|FINED|HEARING_SCHEDULED"
+        },
+        "resolution_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "nullable"
+        }
+      },
+      "required": [
+        "violation_id",
+        "caid",
+        "unit_id",
+        "issue_date",
+        "violation_category",
+        "cure_deadline",
+        "fine_amount",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "sirs_filings": {
+      "type": "object",
+      "properties": {
+        "sirs_id": {
+          "type": "string",
+          "description": "SIRS-[10 alphanumeric]"
+        },
+        "caid": {
+          "type": "string"
+        },
+        "filing_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "study_engineer": {
+          "type": "string"
+        },
+        "engineer_license": {
+          "type": "string"
+        },
+        "structural_findings": {
+          "type": "string"
+        },
+        "estimated_repair_cost": {
+          "type": "number"
+        },
+        "next_due_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "compliance_status": {
+          "type": "string",
+          "description": "COMPLIANT|OVERDUE"
+        }
+      },
+      "required": [
+        "sirs_id",
+        "caid",
+        "filing_date",
+        "study_engineer",
+        "engineer_license",
+        "structural_findings",
+        "estimated_repair_cost",
+        "next_due_date",
+        "compliance_status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "associations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/associations"
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/units"
+      }
+    },
+    "fee_schedules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/fee_schedules"
+      }
+    },
+    "payment_ledger": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/payment_ledger"
+      }
+    },
+    "delinquency_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/delinquency_records"
+      }
+    },
+    "reserve_funds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/reserve_funds"
+      }
+    },
+    "work_orders": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/work_orders"
+      }
+    },
+    "violations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/violations"
+      }
+    },
+    "sirs_filings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sirs_filings"
+      }
+    }
+  }
+}
