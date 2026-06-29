@@ -24,18 +24,6 @@ All data is **fully synthetic** (no real PII), generated with a fixed seed (42) 
 
 ---
 
-## Verified results (Phases 1–3)
-
-| Component | Result |
-|---|---|
-| Dataset | 300 associations, 12,689 units, ~484K rows; 6 embedded fraud cases |
-| Model 1: Delinquency | Logistic Regression champion: F1 = 0.765, ROC-AUC = 0.928 (both targets met); oracle ceiling 0.811 (94.4%) |
-| Model 2: Reserve failure | Random Forest (Platt-calibrated): Brier = 0.0119, ROC-AUC = 0.970 (both targets met) |
-| Model 3: Anomaly Detection | Isolation Forest: Precision@6 = 0.833 (target ≥ 0.70 met); ROC-AUC = 0.999 |
-| Reproducibility check | Feature pipeline prints **57 positive (19.0%)** for Model 1 |
-
----
-
 ## Repository Structure
 
 ```
@@ -77,6 +65,18 @@ python3 scripts/generate_security_diagram.py  # 9  Security architecture diagram
 ```
 
 Go to `HOW_TO_RUN_LOCALLY.md` for a detailed, step-by-step walkthrough
+
+---
+
+## Verified results (Phases 1–3)
+
+| Component | Result |
+|---|---|
+| Dataset | 300 associations, 12,689 units, ~484K rows; 6 embedded fraud cases |
+| Model 1: Delinquency | Logistic Regression champion: F1 = 0.765, ROC-AUC = 0.928 (both targets met); oracle ceiling 0.811 (94.4%) |
+| Model 2: Reserve failure | Random Forest (Platt-calibrated): Brier = 0.0119, ROC-AUC = 0.970 (both targets met) |
+| Model 3: Anomaly Detection | Isolation Forest: Precision@6 = 0.833 (target ≥ 0.70 met); ROC-AUC = 0.999 |
+| Reproducibility check | Feature pipeline prints **57 positive (19.0%)** for Model 1 |
 
 ---
 
