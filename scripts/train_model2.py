@@ -102,7 +102,7 @@ def calibrated(clf):
 
 skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=RANDOM_SEED)
 
-# ── 3. Pooled OOF evaluation ─────────────────────────────────────────────
+# ── 3. Pooled Out-Of-Fold evaluation ─────────────────────────────────────────────
 print("\n=== Pooled out-of-fold evaluation (Platt-calibrated, 5-fold) ===")
 results = {}
 for name, clf in BASE_MODELS.items():
@@ -190,7 +190,7 @@ ax.set_ylabel("Observed failure fraction")
 ax.set_title("Calibration curve — pooled OOF (quantile bins)", color=NAVY)
 ax.legend(loc="upper left")
 
-# (c) ROC curve
+# (c) Receiver Operating Characteristic curve
 ax = axes[1, 0]
 fpr, tpr, _ = roc_curve(y, oof)
 ax.plot(fpr, tpr, color=GREEN, lw=2.5,
