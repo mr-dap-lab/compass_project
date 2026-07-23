@@ -5,7 +5,6 @@
 
 **Author:** Diego Avella
 **Advisor:** Dr. Bernard Parenteau
-**Submission:** Jun 2026
 
 ---
 
