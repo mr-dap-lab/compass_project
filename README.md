@@ -17,7 +17,7 @@ This capstone delivers:
 1. **CDES**: the COMPASS Data Exchange Standard: a published data schema (JSON Schema + PostgreSQL DDL) for community-association data interoperability. This is a first iteration open to scale.
 2. **Three predictive models**: Delinquency Risk (binary classifier), Reserve Fund Failure (calibrated probability scorer), Financial Anomaly Detection (unsupervised Isolation Forest).
 3. **Security architecture**: STRIDE threat model + FedRAMP High control mapping (NIST SP 800-53 Rev. 5) + Privacy Impact Assessment (Phase 4).
-4. **Streamlit prototype dashboard**: end-to-end live demo (Phase 5).
+4. **Streamlit prototype dashboard**: end-to-end live demo (Phase 5). PoC in this repo: https://github.com/mr-dap-lab/compass-portal-defense
 
 All data is **fully synthetic** (no real PII), generated with a fixed seed (42) and calibrated to CAI 2024 and HUD benchmarks.
 
