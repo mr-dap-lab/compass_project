@@ -81,4 +81,4 @@ Go to `HOW_TO_RUN_LOCALLY.md` for a detailed, step-by-step walkthrough
 
 ## Citation
 
-> Avella, D. (2026). *COMPASS — Community & Property Accountability System for States: A predictive analytics and cybersecurity platform for U.S. community association oversight* [Master's capstone project]. St. Thomas University.
+> Avella, D. (2026). *COMPASS: Community & Property Accountability System for States: A predictive analytics and cybersecurity platform for U.S. community association oversight* [Master's capstone project]. St. Thomas University.
